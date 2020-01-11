@@ -2,3 +2,4 @@
 secret.py
 .idea
 /__pycache__/
+debug.log
