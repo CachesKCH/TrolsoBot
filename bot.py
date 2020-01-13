@@ -60,6 +60,12 @@ async def clear(ctx, cantidad=0):
 
 
 @client.command()
+async def sourcecode(ctx):
+    """Devuelve el link de GitHub del bot"""
+    await ctx.send("Hecho por Caches#8539 con discord.py, Codigo fuente en https://github.com/CachesKCH/TrolsoBot")
+
+
+@client.command()
 async def ping(ctx):
     """Comando simple de Ping para saber la latencia del bot al servidor"""
     await ctx.send(f"Pong! el bot respondio en {round(client.latency * 1000)} ms")
