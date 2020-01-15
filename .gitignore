@@ -1,5 +1,6 @@
 /venv/
 secret.py
+pruebas.py
 .idea
 __pycache__/
 /cogs/__pycache__/
