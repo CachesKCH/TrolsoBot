@@ -10,6 +10,7 @@ class Example(commands.Cog):
 
     @commands.Cog.listener()
     async def on_ready(self):
+        """Imprime un mensaje a la consola cuando la extension termina de cargar"""
         cog_name = os.path.basename(__file__)
         print(f"Extension {cog_name[:-3]} cargada exitosamente.")
 
